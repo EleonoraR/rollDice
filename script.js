@@ -16,11 +16,11 @@ function rollDice() {
 
   //----------------------------------------------------------
  if (randomDice > randomDice2) {
-    document.querySelector('.title').innerHTML = 'Player 1 won🚩';
+    document.querySelector('.title').innerHTML = 'Player 1 won 🚩';
     document.querySelector('.p1').style.color = 'green';
     document.querySelector('.p2').style.color = 'red';
   } else if (randomDice < randomDice2) {
-    document.querySelector('.title').innerHTML = 'Player 2 won🚩';
+    document.querySelector('.title').innerHTML = 'Player 2 won 🚩';
     document.querySelector('.p2').style.color = 'green';
     document.querySelector('.p1').style.color = 'red';
   } else {
