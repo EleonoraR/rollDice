@@ -11,6 +11,7 @@ h1 {
 }
 
 p {
+  margin: 15px 0;
   font-size: 2rem;
   color: #2e307c;
   font-family: 'Indie Flower', cursive;
