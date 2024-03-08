@@ -59,7 +59,7 @@ footer {
   background-color: #0e002a;
   color: white;
 }
-@media (max-width: 700px) {
+@media (min-width: 501px) and (max-width: 700px) {
   h1 {
     font-size: 3rem;
     text-shadow: 3px 0 #28303a;
@@ -67,6 +67,7 @@ footer {
   p {
     color: #ffffff;
   }
+
   .btnDiv {
     margin-bottom: 70px;
     text-align: center;
