@@ -61,7 +61,7 @@ footer {
 }
 @media (min-width: 501px) and (max-width: 700px) {
   h1 {
-    margin: 20px auto;
+    margin: 15px auto;
     font-size: 3rem;
     text-shadow: 3px 0 #28303a;
   }
