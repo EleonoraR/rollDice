@@ -15,12 +15,18 @@ function rollDice() {
   randomImg2.setAttribute('src', randomImgSource2);
 
   //----------------------------------------------------------
-  if (randomDice > randomDice2) {
-    document.querySelector('.title').innerHTML = 'Player 1 won!!!';
+ if (randomDice > randomDice2) {
+    document.querySelector('.title').innerHTML = 'Player 1 won🚩';
+    document.querySelector('.p1').style.color = 'green';
+    document.querySelector('.p2').style.color = 'red';
   } else if (randomDice < randomDice2) {
-    document.querySelector('.title').innerHTML = 'Player 2 won!!!';
+    document.querySelector('.title').innerHTML = 'Player 2 won🚩';
+    document.querySelector('.p2').style.color = 'green';
+    document.querySelector('.p1').style.color = 'red';
   } else {
     document.querySelector('.title').innerHTML = 'Draw!!!';
+    document.querySelector('.p1').style.color = 'white';
+    document.querySelector('.p2').style.color = 'white';
   }
    setTimeout(function () {
     buttonPlay.classList.remove('btn-info');
