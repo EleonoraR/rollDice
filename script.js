@@ -21,7 +21,10 @@ function rollDice() {
     document.querySelector('.title').innerHTML = 'Player 2 won!!!';
   } else {
     document.querySelector('.title').innerHTML = 'Draw!!!';
-  }
+  
+   setTimeout(function () {
+    buttonPlay.classList.remove('btn-info');
+  }, 50);
 }
 
 //BUTTON-----------------------------------------
